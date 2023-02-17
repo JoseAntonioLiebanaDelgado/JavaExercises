@@ -1,13 +1,16 @@
-package Functions;
-/*
+package FunctionsParaMirarEnExamen;/*
 Usant programació modular en java, desenvolupa un programa amb mètodes que permeti convertir les temperatures
 expressades en graus Fahrenheit a Celsius i viceversa. Usarem valors enters positius i negatius!
+
 El transformador de mesures ha de tenir un menú principal que permeti escollir el tipus de conversió
 (de Fahrenheit a Celsius o de Celsius a Fahrenheit. El programa no acaba fins que no s'escull l'opció de sortir.
+
 Les fórmules de conversió són les següents:
+
 fahrenheit = (9.0 / 5) * celsius + 32
 celsius = (5.0 /9) * (fahrenheit - 32)
 El programa ha de tenir com a mínim els següents mètodes:
+
 Menú principal
 Control d'errors per a valors enters
 Càlcul de F a C
@@ -16,7 +19,8 @@ Càlcul de C a F
 
 import java.util.Scanner;
 
-public class Functions4_Fahrenheit_Cesius {
+public class Functions4_Fahrenheit_Celsius {
+
     /**
      * Mètode main amb el switch case
      *
@@ -44,7 +48,7 @@ public class Functions4_Fahrenheit_Cesius {
                     System.out.println("La temperatura en Fahrenheit és: " + temperatura);
                     break;
                 case 3:
-                    System.out.println("Gracies. Fins aviat!");
+                    System.out.println("Adeu...");
                     break;
                 default:
                     System.out.println("Valor fora de rang");
@@ -77,7 +81,6 @@ public class Functions4_Fahrenheit_Cesius {
             }
             input.nextLine();
         } while (!correctTyping);
-
         return x;
     }
 
@@ -105,7 +108,6 @@ public class Functions4_Fahrenheit_Cesius {
             }
             input.nextLine();
         } while (!correctTyping);
-
         return x;
     }
 
