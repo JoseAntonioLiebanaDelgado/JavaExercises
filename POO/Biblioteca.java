@@ -89,6 +89,13 @@ public class Biblioteca {
         }
     }
 
+
+
+
+
+
+
+
     /**
      * Aquest mètode serveix per llegir un enter de teclat amb control d'errors.
      * @param menuPrincipal: Serveix per passar-li el text a mostrar del menú.
