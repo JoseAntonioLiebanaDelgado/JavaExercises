@@ -1,4 +1,4 @@
-package ahora;
+package Funciones_Corregidas;
 
 import java.util.Scanner;
 
