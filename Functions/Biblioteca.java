@@ -1,4 +1,4 @@
-package POO;
+package Funciones_Corregidas;
 /*
 Consultar tota la biblioteca i que imprimeixi tots els títols per consola.
 Consultar si existeix un títol en concret especificat per l'usuari.
